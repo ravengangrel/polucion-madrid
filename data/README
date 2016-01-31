@@ -1,0 +1,13 @@
+Ficheros obtenidos de http://www.mambiente.munimadrid.es/opencms/opencms/calaire/consulta/descarga.html?__locale=es
+
+El directorio "raw" contiene un comprimido con los ficheros de datos  renombrados de forma 
+consistente. El formato (y sus cambios) está especificado someramente en 
+INTERPRETACION-HORA-DIA.pdf. Nótese que dicho PDF hace referencia al análisis de muestras diarias, 
+pero los datos que tenemos son de muestras horarias, por lo que hay que adaptar ligeramente los métodos.
+
+Los ficheros originales tenían extensión .cor hasta 2009 y .txt a partir de 2010. También por
+esas fechas empieza a cambiar el formato (desaparecen los decimales y se pasan a guardar números
+enteros, al parecer solo de algunas estaciones), pero hasta finales de 2015 (el último dato 
+disponible al escribir esto) sigue habiendo estaciones que entregan el formato antiguo, con 
+decimales, así que renombramos todos a .txt, dado que la diferencia de extensión no nos aporta
+información útil.
